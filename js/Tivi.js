@@ -70,11 +70,19 @@ class Tivi {
 
     upVolumnTivi(){
         this.currentVolumn++;
-        displayLGD()
+        document.getElementById('currentVolumn').innerHTML = this.getCurrentVolumn();
     }
 
     downVolumnTivi(){
         this.currentVolumn--;
-        displayLGD()
+        document.getElementById('currentVolumn').innerHTML = this.getCurrentVolumn();
+    }
+
+    changeLeftChanel(){
+        
+    }
+
+    changeRightChanel(){
+
     }
 }
