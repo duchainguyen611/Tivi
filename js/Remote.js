@@ -43,12 +43,12 @@ class Remote {
         html += '<tr>';
         html += '<td><button onclick="upVolumn()">▲</button></td>';
         html += '<td></td>';
-        html += '<td><button>►</button></td>';
+        html += '<td><button onclick="rightChanel()">►</button></td>';
         html += '</tr>';
         html += '<tr>';
         html += '<td><button onclick="downVolumn()">▼</button></td>';
         html += '<td></td>';
-        html += '<td><button>◄</button></td>';
+        html += '<td><button onclick="leftChanel()">◄</button></td>';
         html += '</tr>';
         html += '</table>';
         document.getElementById('remote').innerHTML = html;
